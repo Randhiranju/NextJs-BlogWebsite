@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Playball&family=Poppins:wght@400;600;800&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&display=swap');
+
+/*about section */
+.about-left,.about-middle,.about-right{
+    flex-basis:30%;  /*another way to set width to flex child*/
+    padding:1.6rem;
+}
+.bttn{
+    background-color: #4caf50;
+    color: white;
+    display: inline-block;
+    padding: 14px 20px;
+    margin:2rem 0;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    text-transform:uppercase;
+}
+
+/*about 2*/
+.about2{
+    background-color: #222;
+    color:whitesmoke ;
+}
+.about2-left{
+    flex-basis: 50%;
+}
+.about2-right{
+    flex-basis: 30%;
+}
+.card{
+    padding: 3rem 8rem;
+    color: #222;
+    background-color:#DCDCDC;
+    margin: 1.6rem;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    padding-top: 3rem;
+    align-items: center;
+    padding: 4rem;
+    min-height: 100vh;
+  }
+
+  .BlogItem{
+    margin-bottom:20px;
+    cursor: pointer;
+  }
